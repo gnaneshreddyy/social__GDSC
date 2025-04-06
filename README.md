@@ -36,3 +36,5 @@ This project is a simple social media-style web page built with **React** and **
    git clone https://github.com/your-username/your-repo-name.git
    cd social__GDSC
 
+> 🛠️ Implemented this project for **GDSC Club Selection** at **VIT Vellore**.
+
