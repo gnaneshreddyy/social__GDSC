@@ -1,12 +1,37 @@
-# React + Vite
+# 🧑‍🤝‍🧑 Social Feed Page using DummyJSON API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple social media-style web page built with **React** and **Tailwind CSS**, which displays posts using data from [DummyJSON Posts API](https://dummyjson.com/posts). It also includes **JWT token-based user authentication** using [DummyJSON Users API](https://dummyjson.com/users).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 **Login Authentication**
+  - Authenticates users via `https://dummyjson.com/auth/login`
+  - JWT token is stored for session persistence
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📰 **Post Feed**
+  - Displays posts from `https://dummyjson.com/posts`
+  - Each post is shown in a responsive card layout
+
+- 💅 **Modern UI with Tailwind CSS**
+  - Clean and responsive card-based layout for all content
+  - Fully mobile-friendly design
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend**: React
+- **Styling**: Tailwind CSS
+- **Authentication**: JWT token from DummyJSON API
+- **Data Source**: [DummyJSON](https://dummyjson.com)
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
